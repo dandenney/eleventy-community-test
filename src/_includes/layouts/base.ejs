@@ -8,21 +8,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="icon" href="/favicon.ico" />
     <title><%= title %></title>
-    <meta
-      name="description"
-      content="<%= (!!locals.description) ? description : site.description %>"
-    />
-    <meta name="author" content="<%= site.author %>" />
-    <meta property="og:title" content="<%= title %>" />
-    <meta
-      property="og:description"
-      content="<%= (!!locals.description) ? description : site.description %>"
-    />
-    <meta property="og:locale" content="<%= site.locale %>" />
-    <meta property="og:site_name" content="<%= site.site_name %>" />
-    <% if (locals.tags == "posts") { %>
-    <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="<%= date.toISOString() %>" />
+    
   </head>
   <body>
     <style data-emotion="css-global"></style><style data-emotion="css-global"></style><style data-emotion-css="dhfy3a 7y8jxc 14w24v3 1yuhvjn">
